@@ -1,0 +1,74 @@
+console.log ("Olá mundo!")
+VM232:1 Olá mundo!
+undefined
+window.alert ("Cuidado com a dispersão)
+VM331:1 Uncaught SyntaxError: Invalid or unexpected token (at VM331:1:15)
+window.alert ("Cuidado com a dispersão");
+undefined
+console.log ("10 + 5");
+VM420:1 10 + 5
+undefined
+console.log (10 + 5);
+VM429:1 15
+undefined
+console.log ("Meu nome é:");
+VM534:1 Meu nome é:
+undefined
+const nome = "Luis Philipe";
+const idade = 20;
+undefined
+console.log ("Meu nome é:"); , nome, idade);
+VM774:1 Uncaught SyntaxError: Unexpected token ',' (at VM774:1:30)
+console.log ("Meu nome é:", nome, idade);
+VM792:1 Meu nome é: Luis Philipe 20
+undefined
+let pontos = 10;
+undefined
+pontos
+10
+console.log(typeof "ADS");
+VM966:1 string
+undefined
+console.log(typeof 45);
+VM982:1 number
+undefined
+console.log(typeof 50.57)
+VM1030:1 number
+undefined
+var1 = 15;
+15
+var2 = 20;
+20
+var2= 20;
+20
+soma=var1+var2
+35
+n1=4, n2=20, soma=n1+n2, subtracao =n1-n2, mult=n1*n2, div=n1/n2
+0.2
+n1=4, n2=20, soma=n1+n2
+24
+subtracao =n1-n2,
+VM1693:1 Uncaught SyntaxError: Unexpected end of input (at VM1693:1:18)
+subtracao =n1-n2
+-16
+mult = n1*n2
+80
+div = n1/n2
+0.2
+nt1 = 7, nt2 = 8, nt3 = 9
+9
+nt1 = 7, nt2 = 8, nt3 = 9, media = nt1 + nt2 + nt3 / 3;
+18
+nt1 = 7, nt2 = 8, nt3 = 9, media =(nt1 + nt2 + nt3) / 3;
+8
+nt1 = 7, nt2 = 8, nt3 = 9, media =(nt1 + nt2 + nt3) / 3;
+console.log ("Essa é a media, peste");
+VM2095:2 Essa é a media, peste
+undefined
+nt1 = 7, nt2 = 8, nt3 = 9, media =(nt1 + nt2 + nt3) / 3;
+console.log ("Essa é a media, peste", media, "8"
+VM2157:2 Uncaught SyntaxError: missing ) after argument list (at VM2157:2:46)
+nt1 = 7, nt2 = 8, nt3 = 9, media =(nt1 + nt2 + nt3) / 3;
+console.log ("Essa é a media, peste", media);
+VM2279:2 Essa é a media, peste 8
+undefined
